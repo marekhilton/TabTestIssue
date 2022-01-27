@@ -1,0 +1,10 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: net6.0, net5.0, netstandard2.0, netstandard2.1
+nuget Avalonia
+nuget Avalonia.Desktop
+nuget Avalonia.Diagnostics
+nuget Avalonia.ThemeManager
+nuget FSharp.Core 6.0.1
+github fsprojects/Avalonia.FuncUI:0.5.0-beta

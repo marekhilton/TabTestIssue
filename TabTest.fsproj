@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Page.fs" />
+    <Compile Include="Shell.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="paket-files\fsprojects\Avalonia.FuncUI\src\Avalonia.FuncUI\Avalonia.FuncUI.fsproj" />
+    <ProjectReference Include="paket-files\fsprojects\Avalonia.FuncUI\src\Avalonia.FuncUI.DSL\Avalonia.FuncUI.DSL.fsproj" />
+    <ProjectReference Include="paket-files\fsprojects\Avalonia.FuncUI\src\Avalonia.FuncUI.Elmish\Avalonia.FuncUI.Elmish.fsproj" />
+  </ItemGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
+  </Project>
